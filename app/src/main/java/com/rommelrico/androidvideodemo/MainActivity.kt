@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         mediaController.setAnchorView(videoView)
         videoView.setMediaController(mediaController)
         videoView.start()
-        
+
     }
+
 }
